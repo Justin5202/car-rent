@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>租车网</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/help.css" />
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv/html5shiv.min.js"></script>
+      <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部导航栏开始-->
+    <header id="header">
+        <nav class="navbar navbar-rent navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rent-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img height="24" src="assets/img/logo.png"> Boostnote
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="rent-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="detail.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                自驾短租<span class="caret"></span>
+                </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="detail.html">一键租车</a></li>
+                                <li><a href="detail.html">精准找车</a></li>
+                                <li><a href="detail.html">自驾出游</a></li>
+                                <li><a href="detail.html">商务接待</a></li>
+                                <li><a href="detail.html">约会</a></li>
+                                <li><a href="detail.html">体验不同车</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="changzu.html">超值长租</a></li>
+                        <li><a href="help.html" class="active">帮助</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--头部导航栏结束-->
+    <!--主体内容开始-->
+    <div class="help">
+        <div class="container">
+            <div class="row">
+                <div class="help-title text-center">
+                    **租车平台服务规则
+                </div>
+                <div class="help-box">
+                    <div class="col-md-2">
+                        <div class="help-menu">
+                            <ul>
+                                <li><a href="help.html">平台规则</a></li>
+                                <li><a href="rentprogress.html">租车流程</a></li>
+                                <li><a href="ownerIndro.html">车主帮助</a></li>
+                                <li><a href="renterIndro.html" class="active">租客帮助</a></li>
+                                <li><a href="safeItem.html">保险条款</a></li>
+                                <li><a href="safeItemDetail.html">保险细则</a></li>
+                                <li><a href="ownerDutyLaw.html">车主责任/法律解读</a></li>
+                                <li><a href="service.html">服务协议</a></li>
+                                <li><a href="secret.html">隐私协议</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="help-content">
+                            <div class="right" style="line-height: 25px; font-size: 13px; color: #666666;">
+                                <p style="width: 100%; font-size: 25px; font-weight: bold; line-height: 50px;height:50px; color: #4786f1; text-align: center;">租客帮助</p>
+                                <h3 class="h2a">1.外国护照与外国驾照是否可以认证为会员？</h3>
+                                <p>外国护照：目前为止我们只支持有中国身份证的租客。根据需要，我们之后将安排开放给国外护照的人士，请耐心等待。</p>
+                                <p>国外驾照：目前，凹凸租车无法向仅持有外国驾照的租客开放。对于外国驾照新换发的国内驾照，外国驾照的驾龄可计入租客驾龄。此种情况下，租客需将您的外国驾照的复印件发送至hello@atzuche.com。并拨打客服热线。</p>
+                                <h3 class="h2a">2.我租的车可以给其他人驾驶吗？</h3>
+                                <p>不可以。您租的车只能由本人驾驶，不允许借由他人驾驶。租车期间的保险的受益人是租车订单中的“指定驾驶人”。所以，只有您才能取车，用车和还车。若其他人使用您预订的车，发生交通事故，保险公司将不予理赔，损失将由您全部承担。</p>
+                                <h3 class="h2a">3.如何使用优惠券？</h3>
+                                <p>租客需要在订单生成前，在订单详情页面上确认勾选优惠券的使用，在支付预授权后无法补充选择。</p>
+                                <p>优惠券仅抵扣租金，不可用于支付车辆租期内的保险费及油费。</p>
+                                <p>优惠券不可叠加使用，不找零、不兑现。</p>
+                                <p>请及时查阅优惠券使用期限，以免优惠券过期造成损失。</p>
+                                <p>优惠券不可用于支付违约金。</p>
+                                <p>租客出于真实使用需求而租车时，可使用优惠券来抵现。如租客出于恶意刷单、优惠券变现等非实际消费目的，首次发现，该订单将列为可疑订单，平台将暂停支付车主收益，并在租客押金中扣除优惠券+钱包合计的三倍金额；如再次发现，平台将强制将车主车辆下架，并扣除租客全部押金，同时取消租客的会员资格。</p>
+                                <h3 class="h2a">4．租车押金如何计算？何时退还？</h3>
+                                <p>租客选择车辆并下订单后，立即在系统内支付车辆押金/订金，车辆押金/订金由平台系统根据具体出租车辆和租赁天数计算得来，如果租车订单被车主接受，车辆押金/订金在交易结算后完成退款；如果租车订单未被车主接受，且租客没有下新的订单，系统将在4小时后自动完成租车押金退还。</p>
+                                <h3 class="h2a">5.若出了事故，凹凸租车提供何种保障？</h3>
+                                <p>1) 租客须第一时间报警并致电凹凸租车客服、或者添加保险理赔微信“ATZC520”报案（工作时间：每日9点至18点）,现场由交警裁定事故责任。订单结束仍未报案的，则视为瞒报，保险不予赔付，责任由租客承担。</p>
+                                <p>2) 租客需对事故现场进行拍照，包括事故全景照片（车辆现场位置、碰撞痕迹、事故损失全貌），物证及特写照片（车牌号、受损部位、受损程度等），以便顺利获得保险公司的赔付。</p>
+                                <p>3) 租客需将车送至凹凸租车指定维修店，进行车辆定损与维修。车辆维修完成，租客需取回维修车辆并送还至还车地点。</p>
+                                <p>4) 租客需配合处理相关索赔事宜，包括且不限于车辆定损、维修费用垫付、理赔手续办理等事宜。</p>
+                                <p>5) 车辆维修对车主造成租期外的停运损失，由租客承担。如双方对于停运标准无法达成一致，平台将按照表格内标准执行</p>
+                                <table border="1" cellspacing="0" cellpadding="0" width="90%">
+                                    <tbody>
+                                        <tr>
+                                            <td width="30%" nowrap="nowrap">
+                                                <p>序号 </p>
+                                            </td>
+                                            <td width="30%" nowrap="nowrap">
+                                                <p>标准（单位：元） </p>
+                                            </td>
+                                            <td width="30%" nowrap="nowrap">
+                                                <p>停运费时间（单位：天） </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                <p>1</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>定损金额=&lt;2000</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>无停运补偿</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                <p>2</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>2000&lt;定损金额=&lt;3000</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>1</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                <p>3</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>3000&lt;定损金额=&lt;5000</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>2</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                <p>4</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>5000&lt;定损金额=&lt;8000</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>4</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                <p>5</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>8000以上定损金额</p>
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                <p>根据具体案件而定</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>6) 对于理赔责任外的维修费用，平台有权按照市场价格冻结事故责任方相应的维修费用（标准如下）。修理完成后凹凸租车平台有权扣除责任方相应金额（包含维修费用和停运补偿费用）。</p>
+                                <p>
+                                </p>
+                                <table border="1" cellspacing="0" cellpadding="0" width="453">
+                                    <tbody>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" rowspan="2" valign="bottom">
+                                                <p align="center">项目 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">喷漆（含工料） </p>
+                                            </td>
+                                            <td width="220" nowrap="nowrap" colspan="3" valign="bottom">
+                                                <p align="center">钣金项目 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">全喷 </p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">小 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">中 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">大 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前保险杠 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">450</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">50</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前围 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">50</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">80</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">120</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">引擎盖 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">500</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">300</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前翼子板 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">400</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">50</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前门 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">450</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">80</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">120</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">后门 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">450</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">80</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">120</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">车顶 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">600</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">80</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">后翼子板 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">400</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">300</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">后围 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">250</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">60</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">后保 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">450</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">50</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">100</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">200</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">中柱 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">180</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前后柱 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">180</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">前后保骨架 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">30</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">50</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">80</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="117" nowrap="nowrap" valign="bottom">
+                                                <p align="center">门底槛 </p>
+                                            </td>
+                                            <td width="116" nowrap="nowrap" valign="bottom">
+                                                <p align="center">250</p>
+                                            </td>
+                                            <td width="76" nowrap="nowrap" valign="bottom">
+                                                <p align="center">60</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">150</p>
+                                            </td>
+                                            <td width="72" nowrap="nowrap" valign="bottom">
+                                                <p align="center">无 </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>一)汽车钣金： </p>
+                                <p>汽车因为发生事故后的车辆局部变形，需要的外观维修；应不同受损程度分为小（直径在5公分以内凹陷）、中（直径在10公分以内凹陷）、大（直径在20公分以内凹陷）。 </p>
+                                <p>二)维修项目说明： </p>
+                                <p>上述价格在综合修理厂10-15万左右车型定价，7万以下下浮20%，15万以上上浮20%，20万以上上浮30%，30万以上上浮40%，40万以上上浮50%，奔驰、宝马、雷克萨斯、保时捷、奥迪等稀少车型上浮150%，同一车系按照低标准执行。 </p>
+                                <p>三)零部件核定价格说明： </p>
+                                <p>综合修理厂以及非品牌维修站，按市场上配件商供货价上浮15%核定；
+                                    <br> 品牌特约维修站按4S店系统价核定。 </p>
+                                <p></p>
+                                <h3 class="h2a">6.租客取车时需要做哪些事情？</h3>
+                                <p>将身份证和驾照原件递交车主本人查核；</p>
+                                <p>请仔细查看车辆外观及内饰，根据车辆现状完整填写车辆交接单（<a style="color: #00A0FF;" href="/downloads/downloadDocument">下载车辆交接单</a>），签字确认并拍照留存；</p>
+                                <p>同时对全车进行拍照或摄影，对车辆受损的部位一定要拍摄在内（照片必须包含车牌号）；</p>
+                                <p>将现有里程数与油量拍照留存；</p>
+                                <p>查看该车行驶证与交强险保单原件，并妥善保管；</p>
+                                <p>查看是否还有车主私人物品遗留。</p>
+                                <p>取车时发现的损伤，若车主拒绝记录，或车况无法使用，导致订单取消，由车主支付违约罚金。</p>
+                                <p>为了保障车主和租客的利益，取车时建议车主和租客对车辆状况进行照相或录制视频，以作为存证，避免纠纷。</p>
+                                <h3 class="h2a">7.租用期间加油是否需要开具发票？</h3>
+                                <p>若采取同油位还车的方式计算油费，您与车主之间不涉及油费结算。若采取按里程计算油费，且在租车期间您也加过油，您需要保留油费发票，留待车主检查油品。</p>
+                                <p>如果交车时油表内油量少于租客取车时的油量，租客在行驶中从未加过油的，按照期间行驶的里程总数，根据以下标准进行结算：</p>
+                                <p>1.6L或1.4T以下，0.7元/公里;</p>
+                                <p>1.7-2.0L或1.5T-1.8T，0.8元/公里;</p>
+                                <p>2.1L-2.5L或1.9T-2.0T，1.0元/公里;</p>
+                                <p>2.6L-3.0L或2.1T-2.5T，1.3元/公里;</p>
+                                <p>3.1L或2.6T以上，1.6元/公里.</p>
+                                <h3 class="h2a">8.电动车还车时的电量如何结算？</h3>
+                                <p align="left">对于电动车电费结算，建议以原电量还车的方式结算：
+                                    <br> 车主向车辆借用者交付租赁车辆时，租赁车辆的电量刻度表中的电量应至少高于该刻度表的1/2，租客自理驾驶过程中的电量，并在还车时将电充至与取车时相同刻度。车主和租客之间不涉及电费结算。此种情况车主与租客在交车前拍下电表刻度位置，协商一致即可。如还车时出现纠纷，双方需将交车前与还车时的电表位置拍照提供给凹凸租车平台客服。照片需使用带拍照时间的原始照片。
+                                    <br> 如果交车时电量少于租客取车时的电量，租客按车主在交车备注中注明的标准，同车主结算差额电量的费用；如果车主未在交车备注中注明，则租客无需补电量差额费用。 </p>
+                                <p align="left">备注：车主应保证在租客取车时，电量至少有1/2的存电量。租客应保证在还车时，电量至少有1/4的存电量。 </p>
+                                <h3 class="h2a">9.用车期间发生超里程如何结算？</h3>
+                                <p>平台规定日限里程不得低于每日200公里。</p>
+                                <p>租客可以在车辆交车备注中查询车主设置的每日里程限定说明和超里程的计费要求。如果车主没有描述，日限里程默认按照平台规定日限里程每日200公里，超里程计费按照如下平台计费标准计算。</p>
+                                <p>超里程计费标准如下：</p>
+                                <p>车辆日租金的0.5%，最低不得低于0.5元/公里，最高不得高于5元/公里；</p>
+                                <p>如：日租金为50元，则超里程费用为50*0.5%=0.25元/公里，按0.5元/公里计算；</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日租金为100元，则超里程费用为100*0.5%=0.5元/公里，按0.5元/公里计算；</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日租金为500元，则超里程费用为500*0.5%=2.5元/公里，按2.5元/公里计算；</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日租金为2000元，则超里程费用为2000*0.5%=10元/公里，按5元/公里计算；</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;凹凸租车有权对设置不合规的每日限定里程的车辆进行下架处理。</p>
+                                <h3 class="h2a">10. 用车期间违章扣分如何处理？</h3>
+                                <p>凹凸租车在确认还车后的15-20天内查询租用车辆期间是否有违章，如果租车期间内没有违章，违章押金将在5个工作日内返还。</p>
+                                <p>对于违章行为，租客应当自行到交管部门缴纳违章罚款、消除违章记录。如租客在平台发出违章通知后7个自然日内（国庆节、春节期间延后7天）未缴纳罚款、消除违章记录，凹凸租车有权将违章押金部分金额作为违约担保费用扣除，直至违章处理完毕，具体处理方式如下：</p>
+                                <p>1）如租客在收到平台发出违章通知的7日内（国庆节、春节期间延后7天），自行处理违章，处理完毕后租客必须将处罚决定书及银行缴费记录通过APP“违章查询”功能上传，平台确认无误后退回押金，如不上传凭证，平台有权不退还押金。</p>
+                                <p>2）如租客在收到平台发出违章通知后7个自然日内（国庆节、春节期间延后7天），仍没有处理消除违章记录（包括因外界因素导致租客无法自行处理的情况），凹凸租车将协助车主处理违章事宜，违约担保费全部用于协调处理违章所需支出的费用，结余部分退还租客，不足部分由租客补充支付。凹凸租车就协调处理违章事宜的服务向租客收取服务费用50元/笔。</p>
+                                <p>3）车主有义务配合租客消除违章记录，如车主发生不提供行驶证等恶意或者刁难租客情况，影响租客正常消除违章记录，平台确认属实，租客有权放弃处理违章记录且违章记录由车主自行承担。</p>
+                                <p>4）如租客累计二次拒不配合消除违章，平台可根据平台规则对其处罚，要求提高押金比例或查封账户。</p>
+                                <p>5）如因租客拒不配合消除违章导致车辆停运的，租客应向车主支付停运损失，具体金额参见4.3。</p>
+                                <p>2016年3月20日，中国保监会出台《深化商业车险条款费率管理制度改革试点工作方案》的通知，新款商业车险将增加交通违章浮动系数，闯红灯、超速等严重交通违法行为将导致车险费率上升； 所以，为了保障车主相关权益，自2016年12月20日00:00起，下单时间在2016年12月20日00:00之后，如果订单新增违章，开始收取租客不良用车处罚金，凹凸租车收取的租客不良用车处罚金将作为之后车主保费上涨补贴使用，对应费用如下：
+                                </p>
+                                <table border="1" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%">
+                                                <p align="left"><strong>违章内容/条</strong></p>
+                                            </td>
+                                            <td width="50%">
+                                                <p align="left"><strong>不良用车处罚金/条 单位：元 </strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">不按规定安装、遮挡、污损机动车号牌</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">1500</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">未取得驾驶证、被吊销、暂扣、丢失或者损毁期间驾驶机动车</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">1500</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">酒驾、醉驾、毒驾 </p>
+                                            </td>
+                                            <td>
+                                                <p align="left">1500</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">交通事故后逃逸 </p>
+                                            </td>
+                                            <td>
+                                                <p align="left">1500</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">超速（超过50%） </p>
+                                            </td>
+                                            <td>
+                                                <p align="left">100</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">违反交通信号灯 </p>
+                                            </td>
+                                            <td>
+                                                <p align="left">100</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">超速（10%以上未达50%） </p>
+                                            </td>
+                                            <td>
+                                                <p align="left">50</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">除以上违章行为以外的其它违章行为</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">20</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h3 class="h2a">11.若取车时车辆无法启动，或租用车辆行驶中途故障，怎么办？</h3>
+                                <p>若车辆在交易期间因故障或者事故无法行驶，租客需在保证自身安全的前提下，在事故车辆后方150米处摆放救援标志（警示三角架）并打开危险警示灯（双跳灯）。然后，立刻致电客服热线选择道路救援专线，客服人员会对您进行详细的指导并及时施救。 </p>
+                                <p>道路救援的服务细则：
+                                    <br> 1、在线技术解决：在线为客户判断车辆发生异常的可能性，并提供相关建议；
+                                    <br> 2、拖车目的地：就近拖车原则，由平台确定将车辆拖至事故所在城市的就近维修厂或同品牌4S店，
+                                    <br> 3、拖车服务费用：300公里内因出险事故导致车辆无法正常行驶的免费拖车，300公里之外的拖车费用由客户（责任方）承担。因车辆故障导致、管制路段，依法强制产生的拖车费用，以及在高速公路、隧道、大桥、高架道路等收费路段产生的路桥费及其他费用，由租客先行垫付以上费用，然后由平台判定责任后，由责任方承担;
+                                    <br> 4、现场服务：换胎、充电、60分钟内现场抢修，零配件费用由租客先行垫付，然后由平台判定责任后，由责任方承担；
+                                    <br> 5、派送燃料：燃油费由租客自行承担，限5升，在无法派送燃料的城市，可安排拖车拖至就近加油站，租客需承担双倍施救费用；
+                                    <br> 6、租客申请救援之后，由客服人员确认救援项目后派单，因各救援地点及困境不同做以下分类：
+                                    <br> 城区市内（除灾害性天气外）：正常到达时效45分钟，早晚高峰期（7:00-10:00,15:00—20:00）时效60分钟以内，国定节假日时效45-90分钟；
+                                    <br> 郊县（除灾害性天气外）：正常到达时效60分钟以内，早晚高峰期（7:00-10:00,15:00—20:00）时效90分钟以内，国定节假日时效60-120分钟；
+                                    <br> 跨城案件（除灾害性天气外）：时效需根据公里数预估，100公里内60-90分钟，100—200公里90-120分钟，200—300公里120—180分钟，国定节假日时效180—360分钟，由于拖车车速不易过快，故时效可能会延长。
+                                    <br>
+                                    <img src="http://carphoto.atzuche.com/web/images/document/daolujiuyuan.png">
+                                </p>
+                                <h3 class="h2a">12.租客押金为何被暂扣？</h3>
+                                <p>租车期间发生车辆事故、交通违章、违反平台规定的其他行为，凹凸租车有权暂扣租客的租车押金和违章押金，直到租客和车主达成该问题处理的一致方案。</p>
+                                <h3 class="h2a">13.交易结束后如何再申请交易金额修改？</h3>
+                                <p>如果车主或租客对于系统自动计算的交易费用有调整需求，且获得对方的同意，需要补价给对方的车主或租客必须在交易结束时间后4小时内（即车主收益结算前）登录APP或网站点击进入订单页面，点击费用结算，完成补价。
+                                    <br> 油费和超公里结算都可通过该操作完成。
+                                </p>
+                                <h3 class="h2a">14.我取消订单会有哪些费用？</h3>
+                                <p align="left">
+                                    （1）取消预定的步骤
+                                    <br> 在交易开始时间前，交易任何一方可以在手机APP上的订单内点击取消按钮，取消订单。平台将根据取消的原因判断取消订单的责任方和违约罚金的计算处理；
+                                    <br> 在交易开始时间后，交易任何一方如果需要取消交易，需联系平台热线，由平台核实交易的确没有正常开始后取消订单，平台并将根据取消的原因判断取消订单的责任方和违约罚金的计算处理。 </p>
+                                <p align="left">（2）取消预定的违约罚金
+                                    <br> 在租客支付租车押金之前，任何一方取消订单，不需支付违约罚金。
+                                    <br> 在租客支付租车押金之后，任何一方取消订单，需向另一方支付违约罚金。
+                                    <br> 违约罚金的基数为订单金额的租金，分配如下： </p>
+                                <table border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="215">
+                                                <p><strong>&nbsp;</strong></p>
+                                            </td>
+                                            <td width="159">
+                                                <p><strong>租金罚金 </strong></p>
+                                            </td>
+                                            <td width="195">
+                                                <p><strong>违约罚金上限 </strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="229">
+                                                <p>1.交易开始时间前取消交易 </p>
+                                            </td>
+                                            <td width="168">
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td width="207">
+                                                <p>&nbsp;</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="229">
+                                                <p align="right">1.1 交易开始前24小时以上 </p>
+                                            </td>
+                                            <td width="168">
+                                                <p>订单租金的20%</p>
+                                            </td>
+                                            <td width="207" rowspan="3">
+                                                <p>罚金最高上限为200元 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="215">
+                                                <p align="right">1.2 交易开始前24小时以内 </p>
+                                            </td>
+                                            <td width="159">
+                                                <p>订单租金的50%</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="215">
+                                                <p>2.交易开始时间后取消交易 </p>
+                                            </td>
+                                            <td width="159">
+                                                <p>订单租金的100%</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p align="left">特殊活动除外。
+                                    <br> 取消含春节期间（2017年1月25日-2017年2月7日）时间段的订单，违约金一律为500元，租期涵盖春节时期（2017年1月25日-2017年2月7日） 的违约金最多领用两次。
+                                </p>
+                                <p align="left">
+                                    租客可在钱包中获得等值优惠券（不包含保险费）；车主可在收益中获得罚金（不包含保险费）。如果任何一方对违约罚金有疑问，需要在交易取消后的24小时内致电凹凸租车热线。 </p>
+                                <p align="left">（3）取消预订的保险费处理
+                                    <br> 交易开始时间前取消交易，原订单保险费不收取；
+                                    <br> 交易开始时间后取消交易，原订单保险费照旧收取 </p>
+                                <p align="left">（4）协议取消
+                                    <br> 如双方协议取消，并确认任何一方无需支付违约罚金，需要任意一方在交易取消后24小时内致电凹凸租车确认协议取消。 </p>
+                                <p align="left">（5）违约免责情况
+                                    <br> 若车主发现租客不适宜开车，或有意以违反协议的方式使用车辆，有权取消订单而无需支付罚金。
+                                    <br> 若租客发现车辆不适宜驾驶，租客有权取消订单而无需支付罚金。
+                                    <br> 以上情况发生时，车主或租客需在实际交易取消后24小时内通知凹凸租车，由客服在核实后确定责任方和罚金。 </p>
+                                <p align="left">（6）其他违约情况
+                                    <br> 若车主在平台发布的取车位置与车辆信息和实际不符合，且车主没有及时告知租客，导致订单取消，租客免责，由车主支付罚金。
+                                    <br> 若车主在平台发布的车辆信息不符合车辆上架要求，车主需承担车辆在交易期间由此产生平台和租客的相关损失和费用 。
+                                    <br> 若租客未按照和车主约定地点还车，租客需承担由此所产生的平台和车主的相关损失和费用。
+                                    <br> 若租客未按照平台规定或与车主达成的订单条件使用车辆，凹凸租车有权暂扣租客的所有押金并终止交易，协助车主取回车辆。租客需承担由此产生平台和车主的相关损失和费用。
+                                    <br> 若租客在车辆租用期间因驾驶习惯或其他非车辆原因造成的情况要求提供替换车辆，平台可协助租客重新生成订单租用其他车辆并重新支付押金，所有费用需要租客自行承担。原订单按提前还车或租客取消订单处理。 </p>
+                                <h3 class="h2a">15.我在用车时要注意哪些事项？</h3>
+                                <p>（1）仅限本人驾驶，若他人用车发生交通事故，租车保险理赔时将绝对免赔10%定损总金额。</p>
+                                <p>（2）租客不得将租赁车辆驶出和车主约定的行驶范围。若发生车辆驶出约定范围的情况。租赁合同立即终止。车主或车主授权人有权将车辆自行取回，平台有权扣除所有剩余押金。</p>
+                                <p>（3）租用期间若租客将租用车辆进行抵押、转让等非法活动。租赁合同立即终止，车主或车主授权人有权将车辆取回，平台有权扣除所有剩余押金。</p>
+                                <p>（4）订单结束前，若租客无法准时还车，需至少提前4小时通知车主和平台延长租期。若车主和平台未接到延期通知或租客无法联系时，租赁合同立即终止。车主或车主授权人有权将车辆取回，平台有权扣除所有剩余押金。</p>
+                                <p>（5）租客同一时段只能租用一辆车，租车时段不能重叠。</p>
+                                <p>（6）租用期间若发现租客有对车辆进行改装、维修、转借他人使用或其它高风险行为的潜在可能，车主或车主授权人有权将车辆取回，平台有权扣除所有剩余押金。</p>
+                                <p>
+                                    （7）除在租赁车辆内部乘坐车型允许数量的乘客外，租赁车辆不得超载搭乘乘客，也不得在车辆外搭乘乘客；租赁车辆不得在车型允许的承载能力之外搭乘乘客或任何其他财物；不得利用车辆推动、推进、拖引或牵拉其它车辆、挂车或任何其他东西；</p>
+                                <p>（8）应时刻保持租赁车辆清洁，并依照本协议及相关租赁协议的约定及时按原状地归还租赁车辆；</p>
+                                <p>（9）不得拆卸、重新安装、取走租赁车辆上任何外接或内置的设备，包括但不限于租赁车辆上装载的外接设备；</p>
+                                <p>（10）租客不得将租赁车辆用于有竞争性或高危险性的驾驶或比赛、性能测试或驾驶教学、或营运用途。</p>
+                                <p>（11）禁止在租赁车辆内携带宠物（车主同意除外）。若车主同意，宠物必须被妥善看管。</p>
+                                <p>（12）车辆仪表台显示故障灯启亮或发现车况异常现象时，租客需及时停止车辆的使用并拨打凹凸租车客服热线</p>
+                                <h3 class="h2a">16.我还车时要注意哪些事项？</h3>
+                                <p>（1）还车时间</p>
+                                <p align="left">a.建议租客在订单结束前30分钟抵达交车地点，以免造成还车延误。
+                                    <br> 若租客晚于规定时间还车，保险不涵盖晚于规定时间还车的时间段。
+                                    <br> 租客可以在订单结束前在APP上发出延时还车申请，但须获得车主同意。延时租期的租金按延时租期的时间和租金计算规则独立计算。（例：如原订单租期6小时，延时租期7小时，延期租期的租金为7小时的租金。）
+                                    <br> b.若租客晚于规定时间30分钟以上还车，租客需支付还车延误罚金给车主，金额为延误时长正常租金的两倍。
+                                    <br> c.若租客或车主提出提前还车，可提前联系另一方沟通还车时间，获得对方的同意后，完成订单修改。租客可在APP端直接进行订单修改，车主同意后生效。
+                                    <br> 提前还车通常包括如下情况：
+                                    <br> 1. 因租客个人原因提前还车：
+                                    <br> 租客需承担相应违约金支付给车主，未使用天数的平台保障费及超级补充全险（如有）不退还。
+                                    <br> 违约金规则如下：
+                                    <br> 1)提前还车的违约金 = 未使用天数租金*20%(租期中不含节假日)
+                                    <br> 或 提前还车的违约金 = 未使用天数租金*30%(租期中含节假日)
+                                    <br> 2）未使用天数租金 = 原订单使用天数租金-提前还车后订单租金（以天计）。
+                                    <br> 2. 因车主原因或车辆质量原因需要提前还车：
+                                    <br> 租金计算截止至用车时间（按小时计），未使用天数的租金无需支付给车主，平台不退还未使用天数的平台服务费给车主。未使用天数的平台保障费及超级补充全险（如有）需要退还给租客。
+                                    <br> 3. 其他（如有）
+                                    <br> d.延迟还车期的租金计算规则：
+                                </p>
+                                <table border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="191">
+                                                <p align="left"><strong>延时还车时间 </strong></p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left"><strong>正常租金计算规则 </strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="191">
+                                                <p align="left">不足1小时 </p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">按1小时计算 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="191">
+                                                <p align="left">不超过8小时 </p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">以小时价格计算 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="191">
+                                                <p align="left">超过8小时不超过24小时 </p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">以1天价格计算 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="191">
+                                                <p align="left">超过1天 </p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">以实际时间价格计算 </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p align="left">或以双方协商一致的具体金额和支付方式为准。
+                                    <br> （2）还车地点
+                                    <br> 还车地点默认取车地点。若指定其他还车位置，双方需提前与对方协商。
+                                    <br> （3）还车检查
+                                    <br> 还车时，车主与租客（或现场交接人）均须检查车辆，车主根据车辆现状完整填写车辆交接单并双方签字，原件由车主保存，租客拍照留证。
+                                    <br> 若车辆发生新的损伤，需在订单结束后4小时内联系凹凸租车客服；超过4小时未联系，则默认为无新的损伤。
+                                    <br> 租客确保未遗留任何私人物品在车中，若遗留，风险和责任将全权由租客承担。
+                                </p>
+                                <h2 class="h2a">17.出事故后到哪里维修？</h2>
+                                <p>若车辆在交易期间出现事故或故障，租客需在第一时间致电凹凸租车客服电话转保险理赔报案，并配合平台将受损车辆送往指定维修厂进行维修。</p>
+                                <p>平台会根据双方所提供的证据对损失作责任判定。如果双方未能达成统一的赔偿或修理方案。平台有权按照市场价格冻结事故责任方相应的维修费用，修理完成后有权扣除责任方相应金额（包含维修费和停运补偿费用）。</p>
+                                <p>以下为租客责任或保险不涵盖的内容：租车期间产生以下车辆损失且双方有争议，平台会根据预估损失金额暂扣租客押金，待调解结束后结合具体赔付情况做返还：</p>
+                                <p>
+                                </p>
+                                <table width="780" cellpadding="0" cellspacing="0" border="1">
+                                    <colgroup>
+                                        <col width="133">
+                                        <col width="233">
+                                        <col width="217">
+                                        <col width="219">
+                                        <col width="223">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                            <td width="43">序号</td>
+                                            <td width="73">受损项目</td>
+                                            <td width="216">市场指导价0-10万元，维修金额（单位：元）</td>
+                                            <td width="207">市场指导价10-15万元，维修金额（单位：元）</td>
+                                            <td width="208">市场指导价15-40万元，维修金额（单位：元）</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>轮毂损坏</td>
+                                            <td align="right" width="216">500</td>
+                                            <td align="right">1000</td>
+                                            <td align="right">1500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>轮胎损坏</td>
+                                            <td align="right" width="216">500</td>
+                                            <td align="right">1000</td>
+                                            <td align="right">1500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>水箱损坏</td>
+                                            <td align="right" width="216">1000</td>
+                                            <td align="right">1500</td>
+                                            <td align="right">2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>空调损坏</td>
+                                            <td align="right" width="216">1000</td>
+                                            <td align="right">1500</td>
+                                            <td align="right">2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>电瓶损坏</td>
+                                            <td align="right" width="216">500</td>
+                                            <td align="right">800</td>
+                                            <td align="right">1000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>座椅</td>
+                                            <td align="right" width="216">2000</td>
+                                            <td align="right">3000</td>
+                                            <td align="right">4000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>贴膜</td>
+                                            <td align="right" width="216">800</td>
+                                            <td align="right">1000</td>
+                                            <td align="right">1500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>音响损坏</td>
+                                            <td align="right" width="216">2000</td>
+                                            <td align="right">4000</td>
+                                            <td align="right">5000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>油漆面/副</td>
+                                            <td align="right" width="216">450</td>
+                                            <td align="right">600</td>
+                                            <td align="right">1500</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p></p>
+                                <h3 class="h2a">18.车辆使用期间发生维修是否有停运损失？</h3>
+                                <p>租客使用车辆导致车辆的损坏或拒绝配合消除违章，导致车辆租期结束后不能正常使用的，租客应负责车辆维修期间的停运补偿（车辆正常使用磨损、老化除外）。</p>
+                                <p>维修期自修理至车辆归还车主之日止，租客将赔偿车主的停运损失。停运费标准为订单期间非节假日日租金，维修期若在订单租期内，租客按照100%日租金支付车主停运补偿。</p>
+                                <p>行驶证自车主处取走开始至归还车主之日止，租客将赔偿车主的停运损失。停运标准为200元/天，超过一天未满24小时按一天计算。</p>
+                                <p>若超过订单租期，租客将支付维修造成的停运补偿。 </p>
+                                <p>停运补偿金额/天，按车辆等级定价区分，具体如下：</p>
+                                <table border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="80">
+                                                <p align="left">车辆等级</p>
+                                            </td>
+                                            <td width="80">
+                                                <p align="left">累计出租天数</p>
+                                            </td>
+                                            <td width="80">
+                                                <p align="left">近10单成单率</p>
+                                            </td>
+                                            <td width="80">
+                                                <p align="left">停运费比例</p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">凹凸指定修理厂维修停运费计算</p>
+                                            </td>
+                                            <td width="180">
+                                                <p align="left">非指定修理厂维修停运费计算</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV8</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">150</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">90%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">60%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*60%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*60%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV7</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">75</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">90%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">50%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*50%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*50%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV6</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">50</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">80%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">40%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*40%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*40%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV5</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">40</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">80%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">40%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*40%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*40%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV4</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">30</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">70%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">30%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*30%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*30%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV3</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">20</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">70%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">30%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*30%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*30%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV2</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">10</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">无要求</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">20%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*20%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*20%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">LV1</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">无要求</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">无要求</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">20%</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*20%*实际停运天数</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">车辆平日日租金*20%*凹凸定损金额停运天数核定（最高不超过10天）</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>停运天数计算标准根据车辆定损金额推定，平台将按照以下标准执行：</p>
+                                <table border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="600" colspan="3">
+                                                <p align="left">如果车辆在非凹凸指定修理厂维修，凹凸按照以下标准核定停运时间，最高不超过10天</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">序号</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">定损金额（单位：元）</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">停运时间标准（单位：天）</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">1</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">定损金额=&lt;2000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">1</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">2</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">2000 &lt;定损金额=&lt;4000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">2</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">3</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">4000 &lt;定损金额=&lt;6000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">3</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">4</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">6000 &lt;定损金额=&lt;8000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">4</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">5</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">8000 &lt;定损金额=&lt;15000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">5</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">6</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">15000 &lt;定损金额=&lt;20000</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">7</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="left">7</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">20000 &lt;定损金额</p>
+                                            </td>
+                                            <td>
+                                                <p align="left">10</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>停运损失由租客给予车主补贴,如租客购买了超级补充全险，则无需承担该费用。非凹凸租车指定协议厂维修，停运补偿时间上限为10天。</p>
+                                <p>备注：
+                                    <br> 1、如果在修理期间车辆开出修理厂所3公里以外的地点即可视为车辆修理完毕，由于车主单方面原因导致的延迟交接，不计入停运时间。
+                                </p>
+                                <p>2、如果在修理期间内，车主在未修理完毕的情况下私自将车辆移走，停运补偿计费的终止时间将至出厂时间止；</p>
+                                <p>3、事故中责任判定会员车辆为无责，停运损失由平台承担。</p>
+                                <p>4、若在凹凸租车指定合作单位维修，停运时间按车辆实际维修天数计算。</p>
+                                <h3 class="h2a">19.如何联系凹凸租车？</h3>
+                                <p>客服热线：400-668-0202(工作时间：8:00-22:00，节假日不休)</p>
+                                <p>24小时道路救援热线：400-668-0202转4</p>
+                                <p>电子邮箱:&nbsp;hello@atzuche.com</p>
+                                <p>关注我们——</p>
+                                <p>下载手机应用：凹凸租车</p>
+                                <p>登录网站平台：www.atzuche.com </p>
+                                <p>新浪微博：&nbsp;@凹凸租车</p>
+                                <p>官方微信：凹凸租车</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--主体内容结束-->
+    <!--底部开始-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <dl>
+                        <dt>租车类型</dt>
+                        <dd><a href="#">自驾出游</a></dd>
+                        <dd><a href="#">婚庆租车</a></dd>
+                        <dd><a href="#">企业租车</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-3">
+                    <dl>
+                        <dt>租车类型</dt>
+                        <dd><a href="#">商务接待</a></dd>
+                        <dd><a href="#">接机送机</a></dd>
+                        <dd><a href="#">旅游代驾</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-3">
+                    <dl class="ewm center-block">
+                        <dd>
+                            <ul>
+                                <li>
+                                    <img src="" />
+                                    <div>关注微信</div>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-right">
+                        <h2 class="text-muted">
+                <span class="glyphicon glyphicon-phone-alt"></span>
+                <strong>400-888-7789</strong>
+              </h2>
+                        <span class="text-muted" style="display: block; margin-top: 10px;">7X24小时客服热线/企业QQ</span>
+                        <br />
+                        <a href="#" target="_blank" type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 在线客服
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <div class="beian text-center">
+                        Copyright © 2016 易公司（eGongSi.cn） All Rights Reserved.
+                        <br>京ICP备15060737号
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部结束-->
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

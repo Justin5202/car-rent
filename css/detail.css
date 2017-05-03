@@ -1,0 +1,94 @@
+.title-bg {
+  width: 100%;
+  height: 392px;
+  background: url(../img/S001.jpg) no-repeat;
+}
+.main {
+  background-color: #F7F7F7;
+  padding-bottom: 80px;
+}
+.main .list-item {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.main a {
+  background: #ffffff;
+  padding: 15px 14px;
+  width: 100%;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  display: block;
+}
+.main a div {
+  margin: 0px;
+  padding: 0px;
+}
+.main a .list-img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.main a .list-img img {
+  margin: 0 auto;
+}
+.main a .car-name {
+  width: 100%;
+  height: 30px;
+  background: url(../img/black_60.png);
+  z-index: 2;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 30px;
+  float: left;
+  margin-top: -30px;
+  padding: 0 5px;
+}
+.main a .car-name .car-name-star img {
+  float: left;
+  width: 12px;
+  margin: 7px 2px 0 1px;
+}
+.main a .car-name .car-namer {
+  width: 150px;
+  padding-right: 10px;
+  height: 28px;
+  line-height: 28px;
+  float: right;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main a .detail-mod {
+  width: 100%;
+  font-size: 14px;
+  background: none;
+}
+.main a .detail-mod .car-location {
+  color: #999596;
+}
+.main a .detail-mod span {
+  color: #999596;
+}
+.main a .detail-mod .dangw,
+.main a .detail-mod .cp {
+  border: 1px solid #999596;
+}
+.main a .detail-mod .price-bold {
+  color: #4786f1;
+  font-weight: bold;
+}
+.main .shade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  padding-top: 110px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+  z-index: 100;
+  display: none;
+}

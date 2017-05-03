@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>租车网</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv/html5shiv.min.js"></script>
+      <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部导航栏开始-->
+    <header id="header">
+        <nav class="navbar navbar-rent navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rent-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img height="24" src="assets/img/logo.png"> Boostnote
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="rent-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" class="active">首页</a></li>
+                        <li><a href="detail.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								自驾短租<span class="caret"></span>
+								</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="detail.html">一键租车</a></li>
+                                <li><a href="detail.html">精准找车</a></li>
+                                <li><a href="detail.html">自驾出游</a></li>
+                                <li><a href="detail.html">商务接待</a></li>
+                                <li><a href="detail.html">约会</a></li>
+                                <li><a href="detail.html">体验不同车</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="changzu.html">超值长租</a></li>
+                        <li><a href="help.html">帮助</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--头部导航栏结束-->
+    <!--banner开始-->
+    <div id="banner" class="carousel slide banner" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#banner" data-slide-to="0" class="active"></li>
+            <li data-target="#banner" data-slide-to="1"></li>
+            <li data-target="#banner" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/banner1.jpg" alt="...">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="img/banner2.jpg" alt="...">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="img/banner3.jpg" alt="...">
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--banner结束-->
+    <!--车辆价格开始-->
+<!--     <div class="recommend-car">
+        <div class="recommend-car-content">
+            <div class="mouseSlider" target="_blank" alt="奥迪A4L">
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+						<img width="272" height="190" src="img/1451274846140.jpg" alt=" />
+						<div class="mod-maskBar">
+							<div class="fl">
+								<p class="car-location">
+									<i class="icon-location"></i>
+									重庆市南坪万达广场
+								</p>
+								<span class="dangw">自动</span>
+								<span class="cp">渝A*6</span>
+							</div>
+							<div class="fr">
+								<span>￥</span>
+								<span class="price">291/</span>
+								<span>今日</span>
+							</div>
+						</div>
+						<div class="mod-hover">
+							<span style="font-size:34px;font-style:italic">229</span>nbsp;元/今日
+							<br />
+							沃尔沃&nbsp;V60(进口)
+							<div class="star clearfix">
+								<i class="icon-star"></i>
+								<i class="icon-star"></i>
+								<i class="icon-star"></i>
+								<i class="icon-star"></i>
+								<i class="icon-star"></i>
+							</div>
+						</div>
+					</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+                <a href="#">
+                    <h5>
+							<img width="272" height="190" src="img/1451274846140.jpg" alt="" />
+							<div class="mod-maskBar">
+								<div class="fl">
+									<p class="car-location">
+										<i class="icon-location"></i>
+										重庆市南坪万达广场
+									</p>
+									<span class="dangw">自动</span>
+									<span class="cp">渝A*6</span>
+								</div>
+								<div class="fr">
+									<span>￥</span>
+									<span class="price">291/</span>
+									<span>今日</span>
+								</div>
+							</div>
+							<div class="mod-hover">
+								<span style="font-size:34px;font-style:italic">229</span>&nbsp;元/今日
+								<br />
+								沃尔沃&nbsp;V60(进口)
+								<div class="star clearfix">
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+								</div>
+							</div>
+						</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+ -->    <!--车辆价格结束-->
+ 	<!-- 精选车型开始 -->
+ 	<div class="goodCar">
+ 		<div class="container">
+ 			<h3 class="text-center" style="padding: 40px 0">精选车型</h3>
+ 			<div class="row">
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag tag-rz"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp;元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag tag-xc"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp;元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag tag-jj"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp;元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp;元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp;元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="goodCar-item">
+ 						<div class="car-img">
+ 							<img src="img/1451274846140.jpg">
+ 							<i class="car-tag"></i>
+ 						</div>
+						<div class="car-name text-center">
+							福特福克斯(自排/3厢/5座)
+						</div>
+						<div class="car-price text-center">
+							特惠价：<i>330</i>&nbsp元/今日
+						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<!-- 精选车型结束 -->
+    <!--租车类型开始-->
+    <main class="main" role="main">
+        <div class="container">
+            <div class="rent-kind">
+                <h3 class="text-center">精于用车之道，乐在租车至选</h3>
+                <div class="row" id="post-list">
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div id="tip1" class="tip tip-1">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div class="tip tip-2">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div class="tip tip-3">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div class="tip tip-4">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div class="tip tip-5">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="#">
+                            <div class="tip tip-6">
+                                <div class="content"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--租车类型结束-->
+    <!--右边联系方式开始-->
+    <div class="main-im">
+    	<div class="open-im" id="open-im"></div>
+    	<div class="contact-online">
+	        <div class="im-main" id="im-main">
+	            <div id="close-im" class="close-im">
+	                <a href="javascript:void(0);" title="点击关闭">&nbsp;</a>
+	            </div>
+	            <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzkzODE1OTM2NF80NTk0ODdfNDAwODg4Nzc4OV8yXw" class="im-qq qq-a" title="在线QQ客服" target="_blank">
+	                <div class="qq-container"></div>
+	                <div class="qq-hover-c"><img class="img-qq" src="img/qq.png"></div>
+	                <span> QQ在线咨询</span>
+	            </a>
+	            <div class="im-tel">
+	                <div>全国客服热线</div>
+	                <div class="tel-num">400-888-7789</div>
+	                <div>郑州运营热线</div>
+	                <div class="tel-num">0371-56650280</div>
+	                <div class="tel-num mt5">0371-56650290</div>
+	            </div>
+	        </div>
+	    </div>
+    </div>
+    <!--右边联系方式结束-->
+    <!--左边联系方式开始-->
+    <div class="main-im contact-left">
+    	<div class="open-im" id="open-im-r"></div>
+    	<div class="contact-online">
+	        <div class="im-main" id="im-main">
+	            <div id="close-im-r" class="close-im close-im-right">
+	                <a href="javascript:void(0);" title="点击关闭">&nbsp;</a>
+	            </div>
+	            <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzkzODE1OTM2NF80NTk0ODdfNDAwODg4Nzc4OV8yXw" class="im-qq qq-a" title="在线QQ客服" target="_blank">
+	                <div class="qq-container"></div>
+	                <div class="qq-hover-c"><img class="img-qq" src="img/phone.png"></div>
+	                <span> 即刻电话咨询</span>
+	            </a>
+	            <div class="im-tel">
+	                <div>全国客服热线</div>
+	                <div class="tel-num">400-888-7789</div>
+	                <div>郑州运营热线</div>
+	                <div class="tel-num">0371-56650280</div>
+	                <div class="tel-num mt5">0371-56650290</div>
+	            </div>
+	        </div>
+	    </div>
+    </div>
+    <!--左边联系方式结束-->
+    <!--底部开始-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hidden-xs">
+                    <dl>
+                        <dt>租车类型</dt>
+                        <dd><a href="#">自驾出游</a></dd>
+                        <dd><a href="#">婚庆租车</a></dd>
+                        <dd><a href="#">企业租车</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-3 hidden-xs">
+                    <dl>
+                        <dt>租车类型</dt>
+                        <dd><a href="#">商务接待</a></dd>
+                        <dd><a href="#">接机送机</a></dd>
+                        <dd><a href="#">旅游代驾</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <dl class="ewm center-block">
+                        <dd>
+                            <ul>
+                                <li>
+                                    <img src="" />
+                                    <div>关注微信</div>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="text-right">
+                        <h2 class="text-muted">
+								<span class="glyphicon glyphicon-phone-alt"></span>
+								<strong>400-888-7789</strong>
+							</h2>
+                        <span class="text-muted" style="display: block; margin-top: 10px;">7X24小时客服热线/企业QQ</span>
+                        <br />
+                        <a href="#" target="_blank" type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 在线客服
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <div class="beian text-center">
+                        Copyright © 2016 易公司（eGongSi.cn） All Rights Reserved.
+                        <br>京ICP备15060737号
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部结束-->
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

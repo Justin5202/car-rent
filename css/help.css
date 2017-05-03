@@ -1,0 +1,66 @@
+.help {
+  padding-bottom: 80px;
+}
+.help .help-title {
+  padding: 30px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4786F1;
+}
+.help .help-box .help-menu ul li a {
+  text-decoration: none;
+  height: 36px;
+  line-height: 36px;
+  color: #4786f1;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid #ffffff;
+  background-color: #F8F8F8;
+}
+.help .help-box .help-menu ul li a:hover {
+  background-color: #4786F1;
+  color: #fff;
+}
+.help .help-box .help-menu ul li .active {
+  background-color: #4786F1;
+  color: #fff;
+}
+.help .help-box .help-content h2 {
+  color: #4786f1;
+  font-size: 15px;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+}
+.help .help-box .help-content h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 250%;
+}
+.help .help-box .help-content p {
+  line-height: 25px;
+  color: #8A8A8A;
+}
+.help .help-box .help-content .h2a {
+  color: #4786f1;
+  font-weight: bold;
+}
+.safeTable {
+  width: 100%;
+  empty-cells: show;
+  border-spacing: 0;
+  border: 4px solid #999;
+}
+.safeTable tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.safeTable tbody td {
+  padding: 8px;
+  line-height: 20px;
+  color: #999;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+}

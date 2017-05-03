@@ -1,0 +1,376 @@
+.navbar{
+    border: 0;
+}
+.navbar-rent{
+    box-shadow: 0 4px 1px rgba(0,0,0,.1);
+    margin-bottom: 0;
+    z-index: 1000;
+    background-color: rgba(255,255,255,.98);
+    .icon-bar{
+        background-color: #3BBE7A;
+    }
+    .navbar-nav > li{
+        margin: 0 12px;
+    }
+    .navbar-nav > li > a,
+    .dropdown-menu > li > a{
+        color: #777;
+        font-size: 16px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        &:hover{
+            background-color: #4786f1;
+            color: #fff;
+        }
+    }
+    .active{
+        background-color: #4786f1;
+        color: #ffffff !important;
+    }
+}
+/*banner*/
+.banner > .carousel-indicators > li{
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    opacity: .8;
+    cursor: pointer;
+    margin: 0 6px;
+    border: 0;
+}
+.banner > .carousel-indicators > .active{
+    background-color: #4786f1;
+    opacity: 1;
+}
+/*车辆价格*/
+.recommend-car{
+    width: 100%;
+    height: 190px;
+    background: #ffffff;
+    padding: 5px 0;
+    overflow: hidden;
+    .mod-hover{
+        width: 272px;
+        height: 190px; 
+        background: #000;
+        z-index: 11;
+        position: relative;
+        margin-top: -190px;
+        text-align: center;
+        padding-top: 70px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 20px;
+//      filter: alpha(opacity:0);
+        opacity: 0.8;
+        display: none;
+        .star{
+            .icon-star{
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background: url(../img/start.png) no-repeat;
+                background-size: 12px 12px;
+            }
+        }
+    }
+    .recommend-car-content{
+        .mouseSlider{
+            width: 2770px;
+            a{
+                width: 272px;
+                height: 190px;
+                float: left;
+                margin-right: 5px;
+                display: block;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.mod-maskBar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: url(../img/black_60.png);
+    z-index: 10;
+    color: #fff !important;
+    margin-top: -50px;
+    padding: 5px;
+    padding-bottom: 0;
+    .car-location{
+        padding-bottom: 5px;
+        .icon-location{
+            display: block;
+            
+        }
+    }
+    .dangw, .cp{
+        border: 1px solid #fff;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    .price{
+        font-size: 23px;
+        color: #4786f1;
+        line-height: 40px;
+    }
+}
+/*精选车型*/
+.goodCar{
+    .goodCar-item{
+        padding: 10px;
+        margin-bottom: 25px;
+        box-shadow: 0px 0px 3px 3px rgba(100,100,100,0.1);
+        cursor: pointer;
+        .car-img{
+            width: 100%;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .car-tag{
+                display: block;
+                width: 58px;
+                height: 55px;
+                background: url(../img/png_bg.png) no-repeat 0 -12px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .tag-rz{
+                background-position:  0 -12px;
+            }
+            .tag-xc{
+                background-position: -60px -12px;
+            }
+            .tag-jj{
+                background-position: -649px -12px;
+            }
+        }
+        .car-name{
+            top: 160px;
+            font-size: 18px;
+            line-height: 36px;
+        }
+        .car-price{
+            font-size: 18px;
+            i{
+                font-style: normal;
+                font-size: 22px;
+                font-weight: bold;
+                color: #c7161c;
+            }
+        }
+    }
+}
+/*租车类型*/
+.main{
+    .rent-kind{
+        text-align: center;
+        margin: 100px 0 80px;
+        h3{
+            padding-bottom: 40px;
+        }
+        a{
+            display: block;
+        }
+        .content{
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=0);
+            -moz-opacity: 0;
+            -khtml-opacity: 0;
+            opacity: 0.3;
+            background-color: #000;
+            display: none;
+        }
+        .tip{
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: left;
+            margin-right: 22px;
+            margin-bottom: 22px;
+            height: 344px;
+            width: 352px;
+        }
+        .tip-1{
+            background: url(../img/pc_01.jpg) no-repeat;
+        }
+        .tip-2{
+            background: url(../img/pc_02.jpg) no-repeat;
+        }
+        .tip-3{
+            background: url(../img/pc_03.jpg) no-repeat;
+        }
+        .tip-4{
+            background: url(../img/pc_04.jpg) no-repeat;
+        }
+        .tip-5{
+            background: url(../img/pic_05.jpg) no-repeat;
+        }
+        .tip-6{
+            background: url(../img/pic_06.jpg) no-repeat;
+        }
+        .tip-word{
+            .tip-title{
+                font-size: 34px;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+    }
+}
+/*打开联系方式*/
+.main-im{
+    position: fixed;
+    right: 10px;
+    top: 205px;
+    z-index: 100;
+    width: 110px;
+    height: 272px;
+}
+.im-main{
+    display: block;
+    background: #F9FAFB;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #F9FAFB;
+}
+.open-im{
+    cursor: pointer;
+    margin-left: 68px;
+    width: 40px;
+    height: 133px;
+    background: url(../img/open_im.png) no-repeat left top;
+    display: none;
+}
+#open-im-r{
+    margin-left: 18px;
+}
+/*右边联系方式*/
+.contact-online{
+    .qq-a{
+        display: block;
+        width: 106px;
+        height: 116px;
+        font-size: 14px;
+        color: #0484cd;
+        text-align: center;
+        position: relative;
+        span{
+            bottom: 5px;
+            position: absolute;
+            width: 90px;
+            left: 10px;
+        }
+    }
+    .qq-container{
+        z-index: 99;
+        position: absolute;
+        width: 109px;
+        height: 118px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: 1px solid #dddddd;
+        background: url(../img/qq-icon-bg.png) no-repeat center 8px;
+    }
+    .qq-hover-c{
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        position: absolute;
+        left: 18px;
+        top: 10px;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .img-qq{
+        max-width: 60px;
+        display: block;
+        position: absolute;
+        left: 6px;
+        top: 3px;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .im-main{
+        .close-im{
+            position: absolute;
+            right: 10px;
+            top: -12px;
+            z-index: 100;
+            width: 24px;
+            height: 24px;
+            a{
+                display: block;
+                width: 24px;
+                height: 24px;
+                background: url(../img/close_im.png) no-repeat left top;
+            }
+        }
+        .im-tel{
+            color: #000000;
+            text-align: center;
+            width: 109px;
+            height: 130px;
+            div{
+                font-size: 12px;
+                margin-top: 11px;
+            }
+            .tel-num{
+                font-family: Arial;
+                font-weight: bold;
+                color: #4786f1;
+            }
+        }
+    }
+}
+/*左边联系方式*/
+.contact-left{
+    left: 10px;
+    .close-im-right{
+        left: 10px;
+    }
+}
+/*底部*/
+.footer{
+    background-color: #efefef;
+    padding: 46.5px 0;
+    dl{
+        color: #b4b4b4;
+        border-left: 2px solid #d1d1d1;
+        padding-left: 15px;
+        dt{
+            font-size: 18px;
+            letter-spacing: 2px;
+            padding-bottom: 15px;
+        }
+        dd{
+            a{
+                color: #b4b4b4;
+                &:hover{
+                    color: #4786f1;
+                    text-decoration: underline;
+                }
+            }
+            font-size: 14px;
+            height: 25px;
+            line-height: 25px;
+        }
+    }
+    .ewm{
+        border-right: 2px solid #d1d1d1;
+    }
+    .beian{
+        color: #b4b4b4;
+    }
+    .copyright{
+        margin-top: 30px;
+        border-top: 1px solid #d1d1d1;
+        padding-top: 20px;
+    }
+}
